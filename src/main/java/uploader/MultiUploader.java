@@ -16,7 +16,7 @@ public class MultiUploader {
     }
 
     public static WebDriver getWebDriver() {
-        System.setProperty("webdriver.chrome.driver", "G:\\Downloads\\General\\tools\\[teddyfleece]\\New folder\\New folder\\Process\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chrome_driver_path");
         WebDriver driver = new ChromeDriver();
 
         return driver;
